@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         toggle.syncState()
 
         toolBar.setNavigationOnClickListener{
+            drawerLayout.open()
 
         }
 
@@ -72,7 +73,7 @@ class MainActivity : AppCompatActivity() {
     override fun onBackPressed() {
         AlertDialog.Builder(this)
             .setMessage(R.string.are_you_sure_exit)
-            .setCancelable(false)
+            .setCancelable(true)
             .setPositiveButton(R.string.yes, DialogInterface.OnClickListener { dialogInterface, i -> finish()  })
             .setNegativeButton(R.string.no, null)
             .show()
