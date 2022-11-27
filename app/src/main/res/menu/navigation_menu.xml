@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:showIn="navigation_view"
     android:layout_marginTop="40dp"
-    
+
+
     >
     <group android:checkableBehavior="single"
         android:fontFamily="@font/suisseintl"
         android:textStyle="bold"
 
+
         >
     <item
         android:id="@+id/home_navigation_item"
         android:title="@string/home"
+
 
 
         />

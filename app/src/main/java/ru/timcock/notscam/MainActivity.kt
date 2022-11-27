@@ -38,15 +38,15 @@ class MainActivity : AppCompatActivity() {
         }
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        replaceFragment(HomeFragment(),"Home")
+        replaceFragment(HomeFragment())
 
         navigationView.setNavigationItemSelectedListener {
             it.isChecked=true
 
             when(it.itemId){
 
-                R.id.home_navigation_item-> replaceFragment(HomeFragment(),it.title.toString())
-                R.id.courses_navigation_item-> replaceFragment(CoursesFragment(),it.title.toString())
+                R.id.home_navigation_item-> replaceFragment(HomeFragment())
+                R.id.courses_navigation_item-> replaceFragment(CoursesFragment())
 
             }
             true
@@ -55,13 +55,12 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-    private fun replaceFragment(fragment: Fragment, title: String){
+    private fun replaceFragment(fragment: Fragment){
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.frame_layout_home,fragment )
         fragmentTransaction.commit()
         drawerLayout.close()
-        setTitle(title)
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if(toggle.onOptionsItemSelected(item)){
@@ -78,4 +77,5 @@ class MainActivity : AppCompatActivity() {
             .setNegativeButton(R.string.no, null)
             .show()
     }
+
 }
