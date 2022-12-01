@@ -56,9 +56,11 @@ class ContactsFragment : Fragment(), View.OnClickListener {
         super.onViewCreated(view, savedInstanceState)
         val binding = FragmentContactsBinding.bind(view)
         fragmentFirstBinding = binding
+
         binding.telegramContact.setOnClickListener(this)
-
-
+        binding.facebookContact.setOnClickListener(this)
+        binding.instagramContact.setOnClickListener(this)
+        binding.vkontakteContact.setOnClickListener(this)
     }
 
 
@@ -86,6 +88,17 @@ class ContactsFragment : Fragment(), View.OnClickListener {
         when(view?.id){
             R.id.telegram_contact->{
                 val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/Music_to_you_bot"))
+                startActivity(intent)
+            }
+            R.id.facebook_contact->{
+                Toast.makeText(activity,"facebook",Toast.LENGTH_SHORT).show()
+            }
+            R.id.instagram_contact->{
+                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/va_le_benkendorf/"))
+                startActivity(intent)
+            }
+            R.id.vkontakte_contact->{
+                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://vk.com/dima_gorbusha"))
                 startActivity(intent)
             }
 
