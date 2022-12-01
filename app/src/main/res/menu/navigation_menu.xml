@@ -30,7 +30,7 @@
             />
         <item
             android:id="@+id/downloaded_navigation_item"
-            android:title="@string/dowloaded"
+            android:title="@string/downloaded"
             /><item
         android:id="@+id/favorite_navigation_item"
         android:title="@string/favorite"

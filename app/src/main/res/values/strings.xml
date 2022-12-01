@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">NOTSCAM</string>
+
     <string name="open">Open</string>
     <string name="close">Close</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="are_you_sure_exit">Вы уверены, что хотите выйти?</string>
     <string name="yes">Да</string>
     <string name="no">Нет</string>
@@ -11,15 +11,20 @@
     <string name="home">Главный экран</string>
     <string name="courses">Курсы</string>
     <string name="profile">Профиль</string>
-    <string name="dowloaded">Скачанное</string>
+    <string name="downloaded">Скачанное</string>
     <string name="favorite">Избранное</string>
     <string name="search">Поиск</string>
     <string name="books">Книги</string>
     <string name="contacts">Контакты</string>
 
-
-
-
+    <string name="contacts_text">Это приложение с курсами,\nлекциями, книгами и подкастами,\n<u>И это бесплатно!</u></string>
+    <string name="contacts_pay">По вопросам оплаты:</string>
+    <string name="contacts_pay_number">+7 800 555 35 35</string>
+    <string name="contacts_ad">По вопросам рекламы:</string>
+    <string name="contacts_ad_number">+7 800 555 35 35</string>
+    <string name="contacts_suggestions">С предложениями:</string>
+    <string name="contacts_suggestions_email">help_crypto@gmail.com</string>
+    <string name="project">проект </string>
 
 
 
