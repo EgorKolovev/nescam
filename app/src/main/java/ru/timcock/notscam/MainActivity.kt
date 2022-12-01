@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity() {
 
                 R.id.home_navigation_item-> replaceFragment(HomeFragment())
                 R.id.courses_navigation_item-> replaceFragment(CoursesFragment())
+                R.id.contacts_navigation_item-> replaceFragment(ContactsFragment())
 
             }
             true

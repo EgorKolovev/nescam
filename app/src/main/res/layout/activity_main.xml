@@ -18,10 +18,10 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             app:navigationIcon="@drawable/ic_baseline_menu_24"
+            app:navigationIconTint="@color/main"
             android:minHeight="?attr/actionBarSize"
             app:layout_constraintTop_toTopOf="parent"
             app:title="crypto"
-
             app:titleCentered="true"/>
 
         <FrameLayout
