@@ -38,16 +38,18 @@ class MainActivity : AppCompatActivity() {
         }
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        replaceFragment(HomeFragment())
+        replaceFragment(HomeFragment(), "crypto")
 
         navigationView.setNavigationItemSelectedListener {
             it.isChecked=true
 
             when(it.itemId){
 
-                R.id.home_navigation_item-> replaceFragment(HomeFragment())
-                R.id.courses_navigation_item-> replaceFragment(CoursesFragment())
-                R.id.contacts_navigation_item-> replaceFragment(ContactsFragment())
+                R.id.home_navigation_item-> replaceFragment(HomeFragment(), getString(R.string.home))
+
+                R.id.courses_navigation_item-> replaceFragment(CoursesFragment(), getString(R.string.courses))
+
+                R.id.contacts_navigation_item-> replaceFragment(ContactsFragment(), getString(R.string.contacts))
 
             }
             true
@@ -56,11 +58,12 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-    private fun replaceFragment(fragment: Fragment){
+    private fun replaceFragment(fragment: Fragment, title: String){
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.frame_layout_home,fragment )
         fragmentTransaction.commit()
+        toolBar.setTitle(title)
         drawerLayout.close()
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

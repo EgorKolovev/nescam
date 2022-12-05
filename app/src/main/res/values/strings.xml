@@ -8,14 +8,14 @@
     <string name="yes">Да</string>
     <string name="no">Нет</string>
 
-    <string name="home">Главный экран</string>
-    <string name="courses">Курсы</string>
-    <string name="profile">Профиль</string>
-    <string name="downloaded">Скачанное</string>
-    <string name="favorite">Избранное</string>
-    <string name="search">Поиск</string>
-    <string name="books">Книги</string>
-    <string name="contacts">Контакты</string>
+    <string name="home">личный кабинет</string>
+    <string name="courses">курсы</string>
+    <string name="profile">профиль</string>
+    <string name="downloaded">скачанное</string>
+    <string name="favorite">избранное</string>
+    <string name="search">поиск</string>
+    <string name="books">книги</string>
+    <string name="contacts">контакты</string>
 
     <string name="contacts_text">Это приложение с курсами,\nлекциями, книгами и подкастами,\n<u>И это бесплатно!</u></string>
     <string name="contacts_pay">По вопросам оплаты:</string>
@@ -25,6 +25,9 @@
     <string name="contacts_suggestions">С предложениями:</string>
     <string name="contacts_suggestions_email">help_crypto@gmail.com</string>
     <string name="project">проект </string>
+
+    <string name="my_courses">мои курсы</string>
+    <string name="currency">валюта</string>
 
 
 

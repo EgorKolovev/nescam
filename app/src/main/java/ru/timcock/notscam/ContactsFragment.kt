@@ -29,7 +29,6 @@ class ContactsFragment : Fragment(), View.OnClickListener {
     private var param1: String? = null
     private var param2: String? = null
 
-    private var fragmentFirstBinding: FragmentContactsBinding? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -55,7 +54,6 @@ class ContactsFragment : Fragment(), View.OnClickListener {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val binding = FragmentContactsBinding.bind(view)
-        fragmentFirstBinding = binding
 
         binding.telegramContact.setOnClickListener(this)
         binding.facebookContact.setOnClickListener(this)
