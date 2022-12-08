@@ -5,44 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_marginTop="70dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal">
-    <androidx.appcompat.widget.AppCompatButton
-        android:textSize="12sp"
-        android:id="@+id/profile_button"
-        android:layout_width="84dp"
-        android:layout_height="34dp"
-        android:text="@string/profile"
-        android:fontFamily="@font/suisseintl"
-        android:textColor="@color/main"
-        android:textAllCaps="false"
-        android:background="@drawable/unchosen_button"/>
-    <androidx.appcompat.widget.AppCompatButton
-        android:textSize="12sp"
-        android:id="@+id/my_courses_button"
-        android:layout_width="84dp"
-        android:layout_height="34dp"
-        android:text="@string/my_courses"
-        android:fontFamily="@font/suisseintl"
-        android:textColor="@color/main"
-        android:textAllCaps="false"
-        android:layout_marginHorizontal="10dp"
-        android:background="@drawable/unchosen_button"/>
-    <androidx.appcompat.widget.AppCompatButton
-        android:textSize="12sp"
-        android:id="@+id/currency_button"
-        android:layout_width="84dp"
-        android:layout_height="34dp"
-        android:text="@string/currency"
-        android:fontFamily="@font/suisseintl"
-        android:textColor="@color/main"
-        android:textAllCaps="false"
-        android:background="@drawable/unchosen_button"/>
-    </LinearLayout>
 
 
 

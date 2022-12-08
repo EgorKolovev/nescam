@@ -51,6 +51,8 @@ class MainActivity : AppCompatActivity() {
 
                 R.id.contacts_navigation_item-> replaceFragment(ContactsFragment(), getString(R.string.contacts))
 
+                R.id.profile_navigation_item-> replaceFragment(ProfileFragment(), getString(R.string.profile))
+
             }
             true
 
