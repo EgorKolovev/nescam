@@ -28,8 +28,13 @@
 
     <string name="my_courses">мои курсы</string>
     <string name="currency">валюта</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="you_earned">Вы заработали:</string>
+    <string name="courses_description">так вы сможете сохранять курсы, идти\nпо собственной программе</string>
+    <string name="login_or_register">Войдите или зарегистрируйтесь</string>
+    <string name="login_or_register_description">так вы сможете сохранять курсы, идти\nпо собственной программе</string>
+    <string name="login">вход</string>
+    <string name="register">регистрация</string>
 
 
 </resources>

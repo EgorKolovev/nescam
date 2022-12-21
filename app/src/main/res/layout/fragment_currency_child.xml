@@ -7,21 +7,30 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/currency"
-            android:textSize="40dp"
             android:textColor="@color/black"
-            android:fontFamily="@font/suisseintl"/>
-
+            android:text="@string/you_earned"
+            android:fontFamily="@font/suisseintl"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/currency_fragment_total"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/currency" />
+            android:text="400.000$"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/suisseintl"
+            android:textSize="48sp"/>
+
+
+
 
     </LinearLayout>
 
